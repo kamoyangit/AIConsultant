@@ -35,7 +35,7 @@ def sub_main(text_data):
     # 日付をチェック
     if check_date("2024-11-9"):
         # 少し時間が掛かるのを明示するため
-        with st.spinner('処理中...'):
+        with st.spinner('処理中.....'):
             time.sleep(20)  # 時間がかかる処理をシミュレート
         # modelの設定
         model = configure_api()
