@@ -2,3 +2,4 @@ venv/
 AIConsultant.code-workspace
 .DS_Store
 requirements_org.txt
+__pycache__/

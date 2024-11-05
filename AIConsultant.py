@@ -100,7 +100,7 @@ def main():
 
         # text input
         # 1行でテキストを入力する部品。入力した値は戻り値として返す
-        company = st.text_input('【会社名】：必須', placeholder='例）日立グローバルライフソリューションズ')
+        company = st.text_input('【会社名】：必須', placeholder='xxxxxx株式会社')
         if DEBUG_MODE:
             st.write('入力会社名：', company)
 
